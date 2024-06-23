@@ -1,0 +1,85 @@
+body {
+  margin: 0;
+  font-family: 'Roboto', sans-serif;
+  background-color: #f5f5f5;
+}
+
+.App {
+  text-align: center;
+}
+
+.header {
+  background-color: #3f51b5;
+  padding: 10px;
+  color: white;
+  margin-bottom: 20px;
+}
+
+.container {
+  margin: 20px;
+}
+
+.button {
+  margin: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.form input {
+  margin: 5px;
+  padding: 10px;
+  width: 200px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.form button {
+  margin-top: 10px;
+  padding: 10px 20px;
+  background-color: #3f51b5;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form button:hover {
+  background-color: #303f9f;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.list li {
+  background: white;
+  margin: 10px;
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list li.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.list button {
+  background: none;
+  border: none;
+  color: #f44336;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.list button:hover {
+  color: #d32f2f;
+}
